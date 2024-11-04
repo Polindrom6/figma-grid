@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.main {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url("./img/Rectangle\ 2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+}
+.logo {
+  width: 164px;
+  height: 80px;
+}
+.nav {
+  font-size: 16px;
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+}
+.nav a {
+  color: #363431;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+.nav a:hover {
+  color: brown;
+}
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 14px;
+  color: #0c0c0c;
+}
+.contacts p {
+  color: #363431;
+  text-decoration: none;
+}
+.content {
+  text-align: center;
+}
+
+h1 {
+  color: wheat;
+  font-size: 56px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+p {
+  color: wheat;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: antiquewhite;
+  background-color: rgba(165, 42, 42, 0);
+  border-color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: gray;
+}
+.about {
+  padding: 50px 20px;
+  text-align: center;
+}
+.about h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: brown;
+}
+.icons {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+}
+.icon {
+  text-align: center;
+  color: rgb(12, 12, 12);
+}
+.icon img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+.icon p {
+  font-size: 14px;
+  color: rgb(39, 38, 38);
+}
